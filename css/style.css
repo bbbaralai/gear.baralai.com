@@ -1,0 +1,84 @@
+/*Styling*******************************************************************************************/
+/*
+@font-face {
+font-family: "JosefinSans BoldItalic";
+src: url("../css/fonts/josefin-sans/JosefinSans-BoldItalic.eot");
+src:
+url("../css/fonts/josefin-sans/JosefinSans-BoldItalic.svg") format("svg"),
+url("../css/fonts/josefin-sans/JosefinSans-BoldItalic.tff") format("tff"),
+url("../css/fonts/josefin-sans/JosefinSans-BoldItalic.woff") format("woff"),
+url("../css/fonts/josefin-sans/JosefinSans-BoldItalic.woff2") format("woff2"),
+ }
+*/
+
+/*The base page*/
+html {
+	background-color: rgb(200,200,200);
+	background-image: url('../images/back.jpg');
+	font-family: sans-serif;
+}
+
+.title {
+	padding-top: 1em; 
+	padding-bottom: 1em;
+	width: 100%;
+
+	text-align: center;
+	box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.7);
+}
+/*Navigation Bar****************************************/
+#navlist {
+	position: fixed;
+	width: 100%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+
+	background-color: rgba(255,255,255,0.2);
+}
+
+.navitem {
+	display: inline;
+	margin: 1em;
+}
+
+.button {
+	margin: 0 1em;
+	float: right;
+
+	text-decoration: none;
+	color: white;
+}
+
+#name-button {
+	float: left;
+
+	font-weight: bold;
+}
+
+/*Header**********************************************/
+#header {
+	/*background-image: url("/images/back.jpg");*/
+	padding-top: 17.6em;
+	padding-bottom: 17.6em;
+
+
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	/*background-image: linear-gradient(rgb(10,55,70), rgb(140,160,200));*/
+	color: rgba(255,255,255,0.9);
+}
+
+#title-header {
+	font-size: 15em;
+
+	text-align: center;
+}
+/*Reset********************************************************************************************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
